@@ -8,13 +8,13 @@ Este repositório contém a automação de testes Web para um software denominad
 -   Java - Jdk 22
     (https://www.oracle.com/br/java/technologies/downloads/#jdk22-windows)
 -   JUnit
-    https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.11.0-M2
+    (https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.11.0-M2)
   -   Selenium Java
-  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.23.0
-- Chromedriver -127.0.6533.88 
-https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chromedriver-win64.zip
+      (https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.23.0)
+- Chromedriver -127.0.6533.88
+  (https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chromedriver-win64.zip)
 - Maven
- https://maven.apache.org/download.cgi
+  (https://maven.apache.org/download.cgi)
 
     
 

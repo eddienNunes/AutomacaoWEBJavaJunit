@@ -52,7 +52,7 @@ public class ProdutoTest {
                 .informarCorDoProduto("Cinza")
                 .submeterFormularioDeProdutoComSucesso()
                 .capturarMensagemApresentada();
-        //Produto adicionado com sucesso
+
         Assertions.assertEquals("Produto adicionado com sucesso",msgToast);
     }
 
