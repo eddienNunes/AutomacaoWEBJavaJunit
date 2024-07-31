@@ -1,11 +1,8 @@
 package modulos.produtos;
-
-
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import paginas.LoginPage;
-
 import java.time.Duration;
 
 @DisplayName("Testes Web do Modulo de Produtos")
@@ -114,9 +111,6 @@ public class ProdutoTest {
         Assertions.assertEquals("O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00", msgToast);
 
     }
-
-
-
 
     @AfterEach
     public void afterEach(){
