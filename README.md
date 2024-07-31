@@ -33,7 +33,7 @@ https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/win64/chr
 
 - **Dado** que o valor do produto é igual a R$ -10,00
 - **Quando** tento cadastrar o produto
-- **Então** o sistema deve rejeitar o cadastro e exibir uma mensagem de erro indicando que o valor do produto deve ser maior que zero.
+- **Então** o sistema deve remover o negativo do numero (-) e aceitar o cadastro e confirmar que o produto foi cadastrado com sucesso.
 
 ### Caso de Teste 3: Valor do Produto Maior que Zero e Menor que 7.000,00
 
